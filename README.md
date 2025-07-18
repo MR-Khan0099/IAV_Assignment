@@ -1,19 +1,3 @@
-
-{
-  "mdf_filename": "Vehicle01_meas4.mf4",
-  "signal_descriptions": {
-    "Eng_uBatt": "Battery voltage in mV",
-    "Eng_nEng10ms": "Engine speed",
-    "FuSHp_pRailBnk1": "Fuel Pressure"
-  },
-  "analysis_request": "a histogram of the battery voltage"
-}
-
-
-
-
-
-
 # LLM-Driven MDF Analysis API
 
 This project provides a REST API for analyzing measurement data from MDF files using signal descriptions and natural language analysis requests. The API uses an LLM to generate Python code for the requested analysis and executes it on the uploaded MDF data.
